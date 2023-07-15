@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial Rounded MT';
+    margin: 0rem 0rem;
+}
+.wrapper {
+    height: auto;
+}
+/* header */
+    .headers {
+        padding: 1.5rem 1rem;
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: space-between; 
+        background-color: rgba(8, 8, 8, 0.979);
+        align-items: center;
+    }
+    .link-buttons{
+        width: 100%;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+
+    }
+    .headers label{
+        width :15%;
+        margin-left: 2rem;
+        justify-content: flex-start;
+        font-family: 'Arial Rounded MT';
+        font-size: 2.2rem;
+        font-weight: 700;
+        color:goldenrod;
+    }
+    .link-buttons ul {
+        display: flex;
+    }
+    .link-buttons ul a {
+        display: flex;
+        padding: 8px;
+        font-family: 'Arial Rounded MT';
+        font-size:1.1rem;
+        color: goldenrod;
+        justify-content: space-evenly;
+        text-decoration: none;
+    }
+    .link-buttons ul a:hover{
+        color: yellow;
+        text-decoration: underline;
+    }
+    .link-buttons ul a:active{
+        color: green;
+    }
+    .link-buttons .buttons {
+        padding-right: 1rem;    
+    }
+    .butt {
+        width:120px;
+        height: 40px;
+        padding: 0.5rem;
+        text-align: center;
+        font-family: 'Arial Rounded MT';  
+        font-size: 1.2rem;  
+        border-radius: 9px;
+        border: 1px solid white;
+        color: goldenrod;
+        background-color: black;
+        
+    }
+    .butt:hover{
+        color:black;
+        background-color: goldenrod;
+    }
+
+/* Section 1 */
+
+    .section1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top:15%;
+        background-image: url('img/index-gym.jpg');
+        background-size:cover;
+        height: 100vh;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section1 .intro{
+        position: relative;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        width:80%;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .saying {
+        color:goldenrod;
+        font-family:'Arial Rounded MT';
+        font-size:3.3rem; 
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
+
+    .encourage {
+        color:goldenrod;
+        font-family:'Arial Rounded MT';
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        padding: 5px;
+        text-align: center;
+    }
+    .intro .intro-butt {
+        width:130px;
+        height: 40px;
+        padding: 0.5rem;
+        text-align: center;
+        font-family: 'Arial Rounded MT';  
+        font-size: 1rem;  
+        border: 1px solid goldenrod;
+        
+    }
+    
+    #lm {
+        color: black;
+        background-color: goldenrod;
+        ;
+    }    
+    #bn {
+        color: goldenrod;
+        background-color: black;
+    }
+    #lm:hover {
+        color: black;
+        background-color: yellow;
+        border: 1px solid yellow;
+    }    
+    #bn:hover {
+        color: yellow;
+        background-color: black;
+        border: 1px solid yellow;
+    }
+
+/* Section 2 */
+
+
+    .section2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: rgb(37, 36, 36);
+        height: 100vh;
+        width:100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .section2top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section2bottom {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width:80%
+    }
+    .section2box {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width:23%;
+        height: 55vh;
+        border:1px solid yellow;
+        border-radius: 20px;
+        transition: transform 0.2s ease-in ;
+    }
+
+    .section2box:hover{
+        transform: scale(1.05);
+    }
+
+    .sectionbox-texts{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .section2box .sectionbox-title {
+        color:rgb(204, 178, 30);    
+        font-size: 1.7rem;
+        font-weight: bolder;
+        font-family: 'Arial Rounded MT';
+        padding-bottom: 10px;
+    }
+
+    .section2box .sectionbox-desc{
+        color: goldenrod;
+        text-align: center;
+        font-family:'Arial Narrow';
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        font-weight: 100;
+
+    }
+
+
+/* Section 3 */
+
+    .section3 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        padding-top: 20px;
+        background-color: rgb(24, 23, 23);
+        width:100%;
+        height: 50vh;
+    }
+
+    .section3top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .sayings {
+        color:goldenrod;
+        font-family:'Arial Rounded MT';
+        font-size:3.2rem; 
+        letter-spacing: 1.33px;
+        word-spacing: 2px;
+    }
+
+    .encourages {
+        color:goldenrod;
+        font-family:'Arial Narrow';
+        font-size: 2rem;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        padding: 5px;
+    }
+    .section3bottom p{
+        color: rgb(243, 180, 20);
+        font-family: 'Arial';
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 1.2rem;
+    }
+
+/* Section 4 */
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(37, 36, 36);
+}
+
+.section4wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.section4left {
+    display: flex;
+    width:25%; 
+    flex-direction: column;
+    height: 50vh;
+    border:1px solid yellow;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+.section4center {
+    display: flex;
+    width:25%;
+    flex-direction: column;
+    height: 50vh;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.section4right{
+    display: flex;
+    width: 40%;
+    height: auto;
+    border: 1px solid yellow;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.shortencourage {
+    color:goldenrod;
+    font-family:'Arial Narrow';
+    font-size: 1.2rem;  
+    letter-spacing: 1px;
+    word-spacing: 2px;
+        
+}
+
+.section4center .Myinfo {
+    color: goldenrod;
+    padding-top: 5px;
+}
+.section4center .myinfo {
+    color:rgba(255, 255, 255, 0.548);
+    padding-top: 5px;
+    font-size: 'Arial Narrow';
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+}
+
+.form-inputs input ,textarea{
+    background: transparent;
+    width: 700px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: white;
+    border-bottom: 1px solid goldenrod;
+    width:70%;
+}
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-buttons #submitbtn {
+    color:black;
+    background-color: goldenrod;
+    width:130px;
+    height: 35px;
+}
